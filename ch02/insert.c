@@ -11,6 +11,8 @@ void insert(int a[], int N)
                 a[j + 1] = a[j + 1] + a[j];
                 a[j] = a[j + 1] - a[j];
                 a[j + 1] = a[j + 1] - a[j];
+            } else {
+                break;
             }
         }
     }
